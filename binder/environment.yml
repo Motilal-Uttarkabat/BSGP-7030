@@ -1,5 +1,3 @@
-
-  
 name: base
 # Order determines the ranking of search
 channels:              
@@ -13,15 +11,16 @@ dependencies:
  - python=3.7.7      # Version of Python
  - r-dplyr
  - r-ggplot2
- - r-reshape2
  - r-tidyverse
  - r-plotly
- - r-stringr
  - r-shiny
  - r-shinythemes
  - r-ggpmisc
- - r-readr
- - r-orca
+ - r-caret
+ - r-ellipse
+ - r-e1071
+ - r-kernlab
+ - r-randomforest
  - pip
  - pip:              # Python package manager to install python packages
      - plotly
